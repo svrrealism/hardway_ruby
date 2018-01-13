@@ -1,2 +1,2 @@
 # hardway_ruby
-Exercises from Ruby the Hard Way
+All exercises from Ruby the Hard Way
