@@ -1,5 +1,11 @@
 #Exercise 17: More Files, copy from one to another
 
+#To manage the lifetime of a file it is best to use a File block:1
+#File.open('foo', 'w') do |f|
+  #f.write "bar"
+#end
+#The above closes the file automatically.
+
 from_file, to_file = ARGV
 
 puts "Copying from #{from_file} to #{to_file}"
