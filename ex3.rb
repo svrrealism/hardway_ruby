@@ -1,7 +1,7 @@
-# outputs a string about chickens
+#outputs a string about chickens
 puts "I will now count my chickens:"
 
-# Outputs 30
+#Outputs 30
 puts "Hens #{25 + 30 / 6}"
 
 #Outputs 97
@@ -11,7 +11,7 @@ puts "Roosters #{100 - 25 * 3 % 4}"
 puts "Now I will count the eggs:"
 
 #Outputs 7
-puts 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+puts (3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6).to_f
 
 
 #Outputs a string
@@ -23,7 +23,7 @@ puts 3 + 2 < 5 - 7
 #Outputs 5
 puts "What is 3 + 2? #{3 + 2}"
 
-Outputs -2
+#Outputs -2
 puts "What is 5 - 7? #{5 - 7}"
 
 #Outputs a string
