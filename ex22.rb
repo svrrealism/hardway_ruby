@@ -10,7 +10,7 @@ puts - put string with a new line character
 # {} - together this is used for string interpolation
 
 formatter can be used like so:
-      format_string_var = {%{somevar1} %{somevar2}}
+      format_string_var = '%{somevar1} %{somevar2}'
       puts format_string_var % {somevar1: 25, somevar2: 30}
 
       puts format_string_var % {
