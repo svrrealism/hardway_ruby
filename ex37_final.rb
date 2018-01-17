@@ -172,10 +172,15 @@ Operators
 && : logical And
 || : logical Or
 .. : inclusive range (up to and including)
+  ex. (0..3).to_a
+    #=>[0, 1, 2, 3]
 ... : exclusive range (up to and excluding)
-@ : instance variable of a method
-@@ : class attribute, localizes var to the class or method
-$ : global var
+  ex. (0...3).to_a
+    #=> [0,1,2]
+@ : object scope
+@@ : class scope
+$ : global scope
+  ex. $stdin
 
 
 
