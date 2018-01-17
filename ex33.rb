@@ -35,3 +35,16 @@ def while_func(num, inc)
 end
 
 while_func(800, 20)
+
+
+#====For Loop Version====#
+
+def for_func(num)
+  numbers = []
+  (0..num).each do |i|
+    puts "Numbers are currently at: ", numbers
+    numbers.push(i)
+  end
+end
+
+for_func(10)
