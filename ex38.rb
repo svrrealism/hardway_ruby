@@ -53,6 +53,11 @@ puts combined_array
 combined_array2 = stuff.concat(more_stuff)
 puts combined_array2
 
+# return a subset of an array based on a range
+# the below will print out an array containing items from the
+# stuff array starting at the 3rd element and including the 5th element
+puts stuff[3..5]
+
 #transfer array contents to an empty sorted array
 stuff.sort.each { |i| some_array.push(i); puts some_array }
 
