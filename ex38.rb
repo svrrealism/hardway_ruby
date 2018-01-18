@@ -74,3 +74,13 @@ arr3 = arr1
 arr4 = arr2
 
 puts combine_array_data(arr3, arr4).sort.uniq
+
+#Can also push multiple args to an array
+
+multi_arg_array = []
+
+def multi_args_array(arr, *args)
+  return arr.push(*args)
+end
+
+puts multi_args_array(multi_arg_array, "These", "Are", "More", "Arguments")
