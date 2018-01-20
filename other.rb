@@ -1,5 +1,3 @@
-include Deron
-
 module Other
   def override
     puts "OTHER override"
