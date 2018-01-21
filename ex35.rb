@@ -22,7 +22,7 @@ end
 
 def bear_room
   puts "There is a bear here."
-  puts "The bear had a bunch of honey."
+  puts "The bear has a bunch of honey."
   puts "The fat bear is in front of another door."
   puts "How are you going to move the bear?"
   bear_moved = false
