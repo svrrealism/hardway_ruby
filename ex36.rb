@@ -1,4 +1,5 @@
 #Exercise 36: Designing and Debugging
+
 class User
   attr_accessor :name, :gender, :character_class
 
