@@ -12,6 +12,7 @@ class Room
 end
 
 class Engine
+
   def initialize(selected_room_obj)
     @selected_room_obj = selected_room_obj
   end
